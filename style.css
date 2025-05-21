@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("fonts/Norse-Bold.otf");
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0;
+}
+
+#left {
+    flex: 1;
+    background: url("images/green-leaf.avif");
+    background-size: 100% 100%;
+}
+
+#right {
+    flex: 2;
+}
+
+#logo {
+    margin-top: 20vh;
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo-img {
+    height: 90%;
+}
+
+#logo-text {
+    color: white;
+    font-family: "Norse Bold";
+    font-size: 4rem;
+}
